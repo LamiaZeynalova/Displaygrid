@@ -1,9 +1,9 @@
    .container {
-    width: 700px;
+    width: 600px;
     height:100vh;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 16px max-content 120px 65cm 65px 65px 65px 16px;
+    grid-template-rows: 16px max-content 120px 80px 130px 120px 140px 20px;
     border: 6px solid #afafaf;
 }
    .blok1 {
@@ -12,7 +12,7 @@
 .blok2_items{
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px;
+    grid-template-columns: 160px;
     grid-template-rows: 30px;
     gap: 5px;
     padding: 8px;
@@ -21,7 +21,7 @@
   .blok2_item_first {
     display: grid;
     justify-content: center;
-    margin: 0 80px;
+    margin: 0 60px;
     background-color: #afafaf;
   }
   .blok2_item_second {
@@ -35,9 +35,87 @@
     background-color: green
     
 }
-.blok4_items{
-display: grid;
-background-color: white;}
+.box4_item{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:30px ;
+  gap: 10px;
+}
+
+.blok4_item_first, .blok4_item_second {
+    background-color: #afafaf;
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+ .blok4_item_first{
+  margin: 12px 231px;
+}
+.blok4_boxs{ 
+  display: grid;
+  grid-template-columns:100px 100px;
+  grid-template-rows:50px ;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding-bottom:20px ;
+
+}
+
+.blok5 {
+  display: grid;
+  justify-content: center;
+  background-color: #b36ae2;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  margin-top: 20px;
+}
+
+.blok5_item {
+  display: grid;
+  grid-template-rows: 10px 25px;
+  grid-template-columns: 56px;
+  justify-content: center;
+  padding: 46px 6px 6px 6px;
+  margin: 10px 50px;
+  background-color:white;
+  gap: 7px;
+}
+
+.blok5_item_i {
+  display: grid;
+  padding: 5px;
+  background-color: rgb(147, 147, 147);
+  grid-template-rows: 8px;
+  grid-template-columns: 8px;
+}
+
+.blok6_item{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 230px;
+  grid-template-rows: 30px;
+  gap: 5px;
+  padding: 8px;
+
+}
+.blok6_item_first {
+  display: grid;
+  justify-content: center;
+  margin: 8px 10px;
+  background-color: #afafaf;
+}
+.blok6_item_second {
+  background-color: #afafaf;
+  grid-template-columns: 30px;
+  grid-template-rows: 80px;
+  display: grid;
+  justify-content: center;
+}
+.blok7{
+  background-color: orange;
+  margin-top: 10px;
+}
 
 .footer {
     background-color:blue;
